@@ -57,3 +57,32 @@ these paramters are independent of the data.
 
 Basically rendering the visualisation, in addition it can render additional information like annotations to improve the understanding.
 
+**"How visualisation works:"**
+
+Data generation &rarr; Data visualisation &rarr; Data interaction
+
+Based on these phases three types of visualisations are identified:
+
+1. Passive visualisation. All three phases are strictly separated. we process the data, visualise them and video or animation is a product. User cannot interact with the data.
+
+2. Interactive visualsiation. Data generation phase is separated.
+
+3. Interactive steering. Approach that allows user to interact with all three phases.
+
+
+# Visualisation Metrics
+
+We define two basci visualisation metrics that can be applied in all phases of the visualisation pipeline.
+
+These metrics are *expressivness* and *effectivness*.
+
+## Expressivness
+- the ability of the visualization to convey the full range and depth of the data
+
+It measures the concentration of information in a visualization, expressed as the ratio $M_{exp}$ of displayed information to intended information.
+
+- $M_{exp}$ = 1:  Ideal expressiveness, where the visualization accurately conveys the intended information
+- $M_{exp} < 1$: The visualization is ineffective, displaying less information than intended
+- $M_{exp} > 1$: The visualization is problematic, displaying more information than necessary, potentially introducing errors and confusing the intended message
+
+## Effectivness
