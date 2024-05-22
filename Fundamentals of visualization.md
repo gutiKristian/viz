@@ -86,3 +86,14 @@ It measures the concentration of information in a visualization, expressed as th
 - $M_{exp} > 1$: The visualization is problematic, displaying more information than necessary, potentially introducing errors and confusing the intended message
 
 ## Effectivness
+- measures how quickly and accurately information can be interpreted and rendered at a reasonable cost
+
+- can be quantified using $M_{eff}$
+
+$M_{eff} = \frac{1}{1 + interpret + render}$
+
+where "interpret" is the time to understand the visualisation, and "render" is time required to display it
+
+$0 \leq M_{eff} \leq 1$, where higher $M_{eff}$ indicate short render time and quick interpretation...
+
+# Visual Variables
