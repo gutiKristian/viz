@@ -7,7 +7,7 @@ Topics:
 
 Sources:
 
- [PV251](https://is.muni.cz/auth/predmet/fi/podzim2023/PV251) lecture 1, 2
+ [PV251](https://is.muni.cz/auth/predmet/fi/podzim2023/PV251) lecture 1, 2, 4
 
 [Ward et al.](https://doi.org/10.1201/9780429108433)
 # Visualisation - quick review
