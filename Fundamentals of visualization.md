@@ -97,3 +97,34 @@ where "interpret" is the time to understand the visualisation, and "render" is t
 $0 \leq M_{eff} \leq 1$, where higher $M_{eff}$ indicate short render time and quick interpretation...
 
 # Visual Variables
+
+The application of graphics to communicate information requires an understanding of graphics primitives and their properties. These graphics primitives are also called *marks*. We can encode different data to different marks.
+
+The marks themselves do not convey required information, their spatial arrangement is crucial for effective communication – how they are placed in the screen space.
+
+*In general, we can distinguish eight ways in which graphical objects can encode information:*
+
+1. Position
+2. Shape
+3. Size
+4. Brightness
+5. Colour
+6. Orientation
+7. Texture
+8. Movement
+
+## Position
+- the location of individual graphic elements in the screen space
+- has the greatest impact on the display of information,
+because the spatial arrangement of graphics is the first step in understanding visualization
+
+However, when all data is mapped to graphic symbols placed all in one place, we see only the symbol that was rendered last and lose information. In the best case scenario we would map each graphical symbol to its unique position but we are limited by the screen resolution.
+
+To enhance the understanding another graphical elements may be added into the visualisation. For instance to describe the space, where we put these objects.
+One common example of such additional graphics is axes.
+
+## Shape
+Shape or mark: points, lines, areas, volumes, and their combinations. We also call them glyphs or tags. When we talk about them, we can't take into account their size, birghtness, and orientation. These are completely different variables.
+When using them we should consider whether we can easily distincs between them.
+
+## Size
