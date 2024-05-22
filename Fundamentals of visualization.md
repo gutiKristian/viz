@@ -5,6 +5,11 @@ Topics:
 - Visual variables 
 - Basic visualization techniques for 1D, 2D, 3D and 4D data. - Volumetric datam, visualization of explicit and implicit surfaces. Geovisualization - choropleth maps, cartograms.
 
+Sources:
+
+ [PV251](https://is.muni.cz/auth/predmet/fi/podzim2023/PV251) lecture 1, 2
+
+[Ward et al.](https://doi.org/10.1201/9780429108433)
 # Visualisation - quick review
 
 **What is visualisation:**
