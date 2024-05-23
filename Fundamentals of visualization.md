@@ -113,6 +113,8 @@ The marks themselves do not convey required information, their spatial arrangeme
 7. Texture
 8. Movement
 
+One should be able to talk about them with their own words, there's really no need to memorise this text, it serves as a helping hand:
+
 ## Position
 - the location of individual graphic elements in the screen space
 - has the greatest impact on the display of information,
@@ -127,4 +129,36 @@ One common example of such additional graphics is axes.
 Shape or mark: points, lines, areas, volumes, and their combinations. We also call them glyphs or tags. When we talk about them, we can't take into account their size, birghtness, and orientation. These are completely different variables.
 When using them we should consider whether we can easily distincs between them.
 
+Shape and position variables formed the basis of all visualizations. Without them, it would be impossible to create a visualization. The remaining variables affect the way individual
+representations are displayed.
+
 ## Size
+Can be easily mapped to continuous and interval data variables.
+Size is especially useful for datasets with low cardinality, because it is very difficult to distinguish glyphs that differ very little in size.
+
+Some tips:
+
+
+When the size is encoded to the thickness of a line, we can use only a very limited number of thickness threshold values to still assure that the differences are distinguishable.
+
+Be careful about using perspective projection as this substantially influences the perception of size differences.
+
+## Birghtness
+We should keep in mind human perception, which cannot distinguish all existing brightness levels.
+
+It is recommended that the brightness scale be linear to maximise the perceptibility of the differences.
+
+## Colour
+The difference between brightness and color is that color is defined by two
+parameters - hue and saturation.
+
+Using colour to display information requires mapping data values to individual colors. For this purpose, it is first necessary to define a so-called colormap
+
+This is quite good adept for a question: Problems with the rainbow scale
+
+The main issue of using the rainbow color scheme is the non-uniformity in the distribution of the individual colors and in perception. Using this scheme can lead to creating sharp artificial boundaries between colors (particularly involving yellow) that are not necessarily present in the underlying data.
+
+## Orientation
+Associated with subconscious perception, cannot be used for all shapes of marks (circle). The most suitable markers for displaying orientation are those that have their "main axis".
+
+## Texture
