@@ -235,3 +235,32 @@ In adiition to this we can use techniques that don't visualise whole data but on
 3. Linear probes
   
 ## 3D Data
+The basic techniques for 3D data visualization include:
+1. Visualisation of explicit surfaces: vertices, edges, faces
+2. Volume visualisations
+3. Implicit surfaces: equations
+
+
+# Geovisulalisation
+Examples are modeling of global climate development (e.g., measuring
+temperature, precipitation, wind speed), monitoring economic and social indicators (unemployment rate, level of education, etc.), customer behavior analysis, telephone call statistics, credit card payments, or crime statistics.
+
+Maps can simply be considered a representation of the world, which is reduced to **points, lines, and areas.**
+
+U.S. Geological Survey:
+*Map visualisations are defined as a set of points, lines, and areas, which are defined by their position in the coordinate system and by other "non-spatial" attributes.*
+
+
+
+
+## Choropleth maps
+Thematic map. It visualizes ordinal area data. The area is coloured (or
+filled with texture/pattern) according to the value of some statistical variable to which the visualization focuses on, e.g., population density. When generating such maps normalisation and colour mapping is performed.
+
+The problem with Choropleth's maps is that the most interesting
+values are often concentrated in densely represented areas
+(small and difficult to detect polygons) and less
+interesting values are spread over large areas, thus optically
+more dominant.
+
+## Cartograms
