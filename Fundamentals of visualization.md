@@ -162,3 +162,76 @@ The main issue of using the rainbow color scheme is the non-uniformity in the di
 Associated with subconscious perception, cannot be used for all shapes of marks (circle). The most suitable markers for displaying orientation are those that have their "main axis".
 
 ## Texture
+Texture is mostly associated with polygons, regions, and surfaces. In 3D, a texture is usually considered an attribute of geometry.
+
+## Movement
+It involves changes over time, such as shifting position or flashing. Movement's key aspects include:
+
+- speed of change
+- direction: path of movement, whether along axes, diagonally, or arbitrarily
+- change: variations in other visual variables through movement, like growing/shrinking, lightening/darkening, or rotating
+
+# Basic visualisation techniques
+From Lecture 5 - spatial data visualisation
+
+
+## 1D Data
+One-dimensional data is often obtained by sampling a physical phenomenon as it moves along a curve in space.
+
+Technique to visualise:
+
+Map the spatial data to one of the dimensions (axes) of the screen and:
+   1. plot the data values themselves either to the second dimension of the screen (creating a bar graph)
+   2. colour code the marker or region along the first axis (colour bar).
+
+### 1D multivariate
+Here we posses more than one value for one data input. We can extend the previous techniques by **juxtapositioning** or **superimpositioning**.
+
+#### Juxtapositioning
+Set of isolated graphs used especially in cases where the variables have different scales.
+
+#### Superimpositioning
+Draw individual lines or other primitives in a different style and / or
+color so that we can distinguish the individual data.
+
+## 2D Data
+Displayed mainly by mapping the spatial attributes of the data to the spatial attributes of the screen. The resulting visualisations can be:
+1. Image
+2. Rubber sheet
+3. Cityscape
+4. Scatterplot
+5. Map
+6. Contours
+
+### Rubber sheet
+Rubber sheet visualisation is a powerful technique for emphasising important data features through controlled spatial distortions. It is widely used in cartography and data analysis to help viewers gain better insights into complex data by highlighting areas of interest while maintaining the overall structure of the dataset.
+
+### Cityscape
+This type of visualization is created by drawing 3D objects (generally blocks) in various places in the plane. The data then controls the attributes of these graphic objects (e.g., height, color).
+
+### Scatterplot
+Visualises discrete dataset, there's no interpolation. Data point is placed in the graph, individual data values affect the color, shape, or size of individual marks.
+
+### Contours, isobars
+Displays boundary information that is derived from an image
+and represents a certain continuous phenomenon, such as altitude or temperature. It is also referred to as isovalue (e.g., isobar), which means "one value", so the contour in the map determines the boundary between points above and below this value.
+
+### 2D multivariate
+ 
+**Juxtapositioning**
+- stacking several 2D visualisations of one variable into one 3D visualisation
+- can be hard to detect relationships
+- limited by the number of variables that can be displayed
+  - especially for techniques that already use the third dimension (cityscape)
+
+**Superimpostitioning**
+- limited by the number of variables that can be displayed
+- draw individual data using translucent surfaces
+
+In adiition to this we can use techniques that don't visualise whole data but one-dimensional subsets, projections, or various summaries.
+
+1. Frequency histogram
+2. Merging rows and columns
+3. Linear probes
+  
+## 3D Data
