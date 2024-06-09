@@ -264,3 +264,25 @@ interesting values are spread over large areas, thus optically
 more dominant.
 
 ## Cartograms
+Cartograms are generalizations of common thematic maps, which try to avoid the problems
+that appear in choropleth maps, when geographical data is distorted based on their
+statistical value.
+
+The size of regions is scaled in order to display statistical information. Cartograms have several
+variants - ranging from **continuous cartograms** that preserve the topology of polygonal
+meshes to **discontinuous cartograms** that simply scale each polygon independently of
+rectangular or circular approximations of surfaces.
+
+### Noncontinuous cartograms
+Fully comply with area and shape constraints, but do not maintain the topology of the
+input map. Because the scaled polygons are drawn inside the original polygons, there are no
+problems with the perception of such a map, despite the loss of topology. This however limits the maximum size.
+
+
+### Noncontiguous cartograms
+Scale all polygons to their target sizes, which exactly meet the space requirements. 
+The global shape and topology of the map is lost, which can worsen the perception of the map as a
+whole.
+
+### Continuous cartograms
+Completely preserve the topology of the map and they relax given surface and shape restrictions. In general, cartograms cannot fully preserve shape and area, so generating cartograms involves a relatively complex optimization problem.
